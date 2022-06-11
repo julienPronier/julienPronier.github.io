@@ -1,0 +1,35 @@
+baseURL = 'http://example.org/'
+languageCode = 'fr-fr'
+title = 'Portfolio de Julien Pronier'
+theme = 'iutlens'
+paginate = 2
+
+[params]
+  author = "Julien Pronier"
+  authorImage = "/images/shrek-5.jpg"
+
+[[menu.main]]
+  name = "Mes projets"
+  url = "/projets"
+
+[[menu.main]]
+  name = "Mon CV"
+  url = "/projets/comp"
+
+[[menu.social]]
+name = "GitHub"
+url = "https://github.com/VotreCompteGithub"
+pre = "<i class='fab fa-github'></i>"
+
+[[menu.social]]
+name = "Twitter"
+url = "https://twitter.com/Julien82805055"
+pre = "<i class='fab fa-twitter'></i>"
+
+[[menu.footer]]
+  name = "À propos"
+  url = "https://gohugo.io/"
+
+  [[menu.main]]
+    name = "Catégories"
+    url = "/categories"
